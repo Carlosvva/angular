@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap.css">
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" href="styles.css">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	    <!-- Icon of Page -->
+		<link rel="icon" href="http://getbootstrap.com/favicon.ico">
+		<title>Angular Js</title>
+	</head>
+	<body ng-controller="mainCtrl">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-4"></div>
+	            <div class="col-md-4" >
+	                <h4>{{var1}}</h4>
+	                <h4>{{var2}}</h4>
+	                <h4>{{var3}}</h4>
+	                <h4>{{var4}}</h4>
+	                <li ng-repeat="x in names">{{x}}</li>
+	            </div>
+	            <div class="col-md-4"></div>
+	        </div>
+	    </div>
+		<!--Link Angular js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<!--Call Script-->
+		<script src="script.js"></script>
+	</body>
+</html>
